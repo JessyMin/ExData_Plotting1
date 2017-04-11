@@ -17,7 +17,7 @@ data$date_time = strptime(data$date_time, format = "%Y-%m-%d %H:%M:%S")
 
 
 #Set graphic device to PNG file
-png(filename = "plot1.png", width = 480, height = 480)
+png(filename="plot1.png", width=480, height=480, units="px")
 
 #Make and anotate histogram
 hist(data$Global_active_power, 
